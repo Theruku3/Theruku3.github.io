@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
@@ -28,6 +29,18 @@ nav ul li a {
 
 section {
     padding: 20px;
+}
+
+#about {
+    text-align: center;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 footer {
